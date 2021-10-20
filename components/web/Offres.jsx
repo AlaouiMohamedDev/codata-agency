@@ -18,12 +18,6 @@ export default function Offre() {
                         <i class='bx bx-check text-4xl text-gray-800'></i>
                         <p className = "text-gray-100 font-bold text-lg">Gestion des clients</p>
                     </section>
-
-                    <section className = "property">
-                        <i class='bx bx-check text-4xl text-gray-800'></i>
-                        <span className = "text-gray-100 font-bold text-lg">Gestions de produits</span>
-                    </section>
-
                     <section className = "property">
                         <i class='bx bx-check text-4xl text-gray-800'></i>
                         <span className = "text-gray-100 font-bold text-lg">Gestions de produits</span>
@@ -48,9 +42,9 @@ export default function Offre() {
                     </span>
                 </div>
 
-                <div className = "flex items-center space-x-4 px-9">
-                    <a className = "cursor-pointer hover:scale-105 transition duration-400 ease-in px-28 py-2 bg-gray-900 text-gray-100 font-semibold rounded">Découvrir</a>
-                    <a className = "cursor-pointer hover:scale-105 transition duration-400 ease-in px-20 py-2 whitespace-nowrap text-ms border-2 font-semibold rounded text-gray-900">Contactez-Nous</a>
+                <div className = "flex items-center space-x-4 px-10">
+                    <a className = "cursor-pointer hover:scale-105 transition duration-400 ease-in px-20 py-2 bg-gray-900 text-gray-100 font-semibold rounded">Découvrir</a>
+                    <a className = "cursor-pointer hover:scale-105 transition duration-400 ease-in px-20 py-2 whitespace-nowrap text-sm border-2 font-semibold rounded text-gray-900">Contactez-Nous</a>
                 </div>
             </div>
 
@@ -79,7 +73,7 @@ export default function Offre() {
                     </section>
                 </div>
 
-                <div className = "flex items-center pt-20 pb-1 space-x-2 text-2xl text-gray-100 pl-24">
+                <div className = "flex items-center pt-11 space-x-2 text-2xl text-gray-100 pl-24">
                     <span>
                         A seulement :
                     </span>
@@ -88,9 +82,9 @@ export default function Offre() {
                     </span>
                 </div>
 
-                <div className = "flex items-center space-x-4 px-9">
-                    <a className = "cursor-pointer hover:scale-105 transition duration-400 ease-in px-28 py-2 bg-gray-100 text-gray-900 font-semibold rounded">Découvrir</a>
-                    <a className = "cursor-pointer hover:scale-105 transition duration-400 ease-in px-20 py-2 whitespace-nowrap text-ms border-2 font-semibold rounded">Contactez-Nous</a>
+                <div className = "flex items-center space-x-4 px-10">
+                    <a className = "cursor-pointer hover:scale-105 transition duration-400 ease-in px-20 py-2 bg-gray-100 text-gray-900 font-semibold rounded">Découvrir</a>
+                    <a className = "cursor-pointer hover:scale-105 transition duration-400 ease-in px-20 py-2 whitespace-nowrap text-sm border-2 font-semibold rounded">Contactez-Nous</a>
                 </div>
             </div>
         </section>
