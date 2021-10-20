@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components{
+    .link{
+     @apply hover:scale-105  hover:border-b-4 text-gray-200 hover:text-gray-100 transform duration-300 cursor-pointer;
+    }
+    .icon{
+        @apply  hover:scale-125 transform duration-200 cursor-pointer
+    }
+    .property{
+        @apply flex items-center space-x-2
+    }
+    .strategie-text{
+        @apply text-sm text-justify	w-4/5 text-gray-500
+    }
+    .strategie-title{
+        @apply text-xl font-bold text-gray-800
+    }
+}
