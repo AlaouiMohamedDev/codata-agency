@@ -8,6 +8,7 @@ import { useEffect, useState } from 'react';
 import Strategie from '../components/web/Strategie';
 import Mobile_Strategie from '../components/mobile/Mobile_Strategie';
 import Mobile_Offre from '../components/mobile/Mobile_Offre';
+import Offre from '../components/web/Offres';
 
 
 export default function Home() {
@@ -59,6 +60,8 @@ export default function Home() {
                 {/* Planification et stratégie */}
 
             <Strategie />
+
+            <Offre />
 
                 {/* Offre */}
 

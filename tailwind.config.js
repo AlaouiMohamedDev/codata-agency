@@ -11,6 +11,7 @@ module.exports = {
         'commerce': "url('/vitrine-2.png')",
         'vitrine':"url('/bg-commerce2.png')",
         'gestion':"url('/gestion-pic.png')",
+        'offre':"url('/OffeBack.png')",
        }
     },
   },

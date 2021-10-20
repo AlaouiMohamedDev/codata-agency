@@ -9,19 +9,19 @@ export default function Mobile_Offre() {
                 <h2 className = "text-xl text-gray-100">Votre existence web se fait à travers notre pack</h2>
                 <div className = "flex-col items-center space-y-2">
                     <section className= "property">
-                        <i className='bx bx-check text-3xl text-blue-200'></i>
+                        <i className='bx bx-check text-3xl text-gray-100'></i>
                         <p className = "text-gray-800 font-semibold text-sm">Jusqu'a 5 pages + page de contact</p>
                     </section>
                     <section className = "property">
-                        <i class='bx bx-check text-3xl text-blue-200'></i>
+                        <i class='bx bx-check text-3xl text-gray-100'></i>
                         <p className = "text-gray-800 font-semibold text-sm">Hébergement et nom de domaine offert</p>
                     </section>
                     <section className = "property">
-                        <i class='bx bx-check text-3xl text-blue-200'></i>
+                        <i class='bx bx-check text-3xl text-gray-100'></i>
                         <span className = "text-gray-800 font-semibold text-sm">Affichage responsive</span>
                     </section>
                     <section className = "property">
-                        <i class='bx bx-check text-3xl text-blue-200'></i>
+                        <i class='bx bx-check text-3xl text-gray-100'></i>
                         <p className = "text-gray-800 font-semibold text-sm">Adresse de messagerie professionnelles</p>
                     </section>
                 </div>
@@ -83,7 +83,7 @@ export default function Mobile_Offre() {
                         A seulement :
                     </span>
                     <span className = "font-black text-black tracking-wide text-2xl">
-                        1200 DH
+                        2500 DH
                     </span>
                 </div>
 

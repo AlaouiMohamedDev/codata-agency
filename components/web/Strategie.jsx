@@ -1,6 +1,6 @@
 export default function Strategie() {
     return (
-        <div className = "flex py-32 px-10 bg-gray-50 w-full space-x-10">
+        <div className = "flex py-32 px-10 bg-gray-100 w-full space-x-10">
             <div className="strat-img" >
                 <img src="/strategie-1.png" alt="" className="w-full " />
             </div>
