@@ -7,6 +7,7 @@ import Mobile_Slider from '../components/mobile/Mobile_Slider';
 import { useEffect, useState } from 'react';
 import Strategie from '../components/web/Strategie';
 import Mobile_Strategie from '../components/mobile/Mobile_Strategie';
+import Mobile_Offre from '../components/mobile/Mobile_Offre';
 
 
 export default function Home() {
@@ -36,6 +37,7 @@ export default function Home() {
               <Mobile_Header />
               <Mobile_Slider /> 
               <Mobile_Strategie />
+              <Mobile_Offre />
             </MobileView>
        </div>
         
@@ -58,9 +60,8 @@ export default function Home() {
 
             <Strategie />
 
-                {/* avantages */}
+                {/* Offre */}
 
-                {/* Banner */}
 
 
             {/* Footer */}

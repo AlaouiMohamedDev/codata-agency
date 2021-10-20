@@ -1,4 +1,9 @@
+import { useRouter } from "next/dist/client/router"
+
 export default function Mobile_Strategie() {
+
+    const router = useRouter();
+
     return (
         <div className = "flex flex-col py-10 px-9 bg-gray-50 w-full space-y-6">
             <div className="" >
@@ -37,6 +42,9 @@ export default function Mobile_Strategie() {
                             <p className="text-sm  w-full text-gray-500">Une fois la mission achevée, nous attaquons les tests requis
                             afin d’aplanir tout enchevêtrement</p>
                         </div>
+                </div>
+                <div className = "pt-5 ">
+                    <a onClick = {() => router.push('/contact')} className = " bg-green-900 text-white font-semibold px-14 py-3 rounded-md">Découvrez</a>
                 </div>
             </div>
         </div>

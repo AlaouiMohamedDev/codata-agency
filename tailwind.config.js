@@ -6,7 +6,12 @@ module.exports = {
     extend: {
       fontFamily: {
         'poppins': ['Poppins', 'sans-serif']
-      }
+      },
+      backgroundImage: {
+        'commerce': "url('/vitrine-2.png')",
+        'vitrine':"url('/bg-commerce2.png')",
+        'gestion':"url('/gestion-pic.png')",
+       }
     },
   },
   variants: {
