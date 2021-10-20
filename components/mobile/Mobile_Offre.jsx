@@ -1,4 +1,9 @@
+import { useRouter } from "next/dist/client/router"
+
 export default function Mobile_Offre() {
+
+    const router = useRouter();
+
     return (
         <section className = "w-full">
             <div className = "px-5 py-7 space-y-7 text-gray-100 bg-vitrine">
@@ -36,8 +41,8 @@ export default function Mobile_Offre() {
                 </div>
 
                 <div className = "flex flex-col items-center space-y-3 ">
-                    <a className = "px-28 py-2 bg-gray-100 text-gray-900 font-semibold rounded">Découvrir</a>
-                    <a className = "px-20 py-2 whitespace-nowrap text-ms border-2 font-semibold rounded">Contactez-Nous</a>
+                    <a onClick = {() => router.push('/vitrine')} className = "px-28 py-2 bg-gray-100 text-gray-900 font-semibold rounded">Découvrir</a>
+                    <a onClick = {() => router.push('/contact')} className = "px-20 py-2 whitespace-nowrap text-ms border-2 font-semibold rounded">Contactez-Nous</a>
                 </div>
             </div>
 
@@ -88,8 +93,8 @@ export default function Mobile_Offre() {
                 </div>
 
                 <div className = "flex flex-col items-center space-y-3 ">
-                    <a className = "px-28 py-2 bg-gray-900 text-gray-100 font-semibold rounded">Découvrir</a>
-                    <a className = "px-20 py-2 whitespace-nowrap text-ms border-2 font-semibold rounded text-gray-900">Contactez-Nous</a>
+                    <a onClick = {() => router.push('/gestion')} className = "px-28 py-2 bg-gray-900 text-gray-100 font-semibold rounded">Découvrir</a>
+                    <a onClick = {() => router.push('/contact')} className = "px-20 py-2 whitespace-nowrap text-ms border-2 font-semibold rounded text-gray-900">Contactez-Nous</a>
                 </div>
             </div>
         </section>

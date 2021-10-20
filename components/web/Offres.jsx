@@ -1,4 +1,9 @@
+import { useRouter } from "next/dist/client/router";
+
 export default function Offre() {
+
+    const router = useRouter();
+
     return (
         <section className = "flex w-full  bg-offre bg-cover">
             
@@ -43,8 +48,8 @@ export default function Offre() {
                 </div>
 
                 <div className = "flex items-center space-x-4 px-10">
-                    <a className = "cursor-pointer hover:scale-105 transition duration-400 ease-in px-20 py-2 bg-gray-900 text-gray-100 font-semibold rounded">Découvrir</a>
-                    <a className = "cursor-pointer hover:scale-105 transition duration-400 ease-in px-20 py-2 whitespace-nowrap text-sm border-2 font-semibold rounded text-gray-900">Contactez-Nous</a>
+                    <a onClick = {() => router.push('/gestion')} className = "cursor-pointer hover:scale-105 transition duration-400 ease-in px-20 py-2 bg-gray-900 text-gray-100 font-semibold rounded">Découvrir</a>
+                    <a onClick = {() => router.push('/contact')} className = "cursor-pointer hover:scale-105 transition duration-400 ease-in px-20 py-2 whitespace-nowrap text-sm border-2 font-semibold rounded text-gray-900">Contactez-Nous</a>
                 </div>
             </div>
 
@@ -83,8 +88,8 @@ export default function Offre() {
                 </div>
 
                 <div className = "flex items-center space-x-4 px-10">
-                    <a className = "cursor-pointer hover:scale-105 transition duration-400 ease-in px-20 py-2 bg-gray-100 text-gray-900 font-semibold rounded">Découvrir</a>
-                    <a className = "cursor-pointer hover:scale-105 transition duration-400 ease-in px-20 py-2 whitespace-nowrap text-sm border-2 font-semibold rounded">Contactez-Nous</a>
+                    <a onClick = {() => router.push('/vitrine')} className = "cursor-pointer hover:scale-105 transition duration-400 ease-in px-20 py-2 bg-gray-100 text-gray-900 font-semibold rounded">Découvrir</a>
+                    <a onClick = {() => router.push('/contact')}  className = "cursor-pointer hover:scale-105 transition duration-400 ease-in px-20 py-2 whitespace-nowrap text-sm border-2 font-semibold rounded">Contactez-Nous</a>
                 </div>
             </div>
         </section>
