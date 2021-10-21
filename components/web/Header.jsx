@@ -1,9 +1,12 @@
 import 'boxicons/css/boxicons.min.css'
-import Image from 'next/image'
+import { useRouter } from 'next/dist/client/router'
 
 export default function Header(){
+
+    const router =  useRouter();
+
     return(
-        <div className = "top-0 absolute items-center px-20 py-4 w-full bg-transparent text-gray-100">
+        <header className = "top-0 absolute items-center px-20 py-4 w-full bg-transparent text-gray-100">
             <section className = "flex justify-between border-b pb-4 ">
                 <section className = "space-x-4 text-2xl ">
                     <i className='bx bxl-facebook r hover:text-blue-500 icon'></i> 
@@ -21,7 +24,7 @@ export default function Header(){
 
             <section className = "flex items-center justify-between mt-5">
 
-                <img src="/logo.png" alt="" srcset="" className = "w-3/12 cursor-pointer" />
+                <img src="/logo.png" alt="" srcset="" className = "w-3/12 cursor-pointer" onClick = {() => router.push('/')}  />
 
                 <section className = "flex items-center space-x-12 text-lg">
                     <a className = "link">Notre société</a>
@@ -38,6 +41,6 @@ export default function Header(){
 
             </section>
             
-        </div>
+        </header>
     )
 }

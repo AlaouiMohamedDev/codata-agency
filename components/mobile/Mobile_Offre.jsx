@@ -65,12 +65,7 @@ export default function Mobile_Offre() {
 
                     <section className = "property">
                         <i class='bx bx-check text-3xl text-gray-800'></i>
-                        <span className = "text-gray-100 font-semibold text-sm">Gestions de produits</span>
-                    </section>
-
-                    <section className = "property">
-                        <i class='bx bx-check text-3xl text-gray-800'></i>
-                        <span className = "text-gray-100 font-semibold text-sm">Gestions de produits</span>
+                        <span className = "text-gray-100 font-semibold text-sm">Gestions des produits</span>
                     </section>
 
                     <section className = "property">

@@ -1,33 +1,21 @@
 import Head from 'next/head'
 import Header from '../components/web/Header'
 import Slider from '../components/web/Slider'
-import { BrowserView, isBrowser, isMobile, MobileView} from 'react-device-detect';
+import { BrowserView,MobileView} from 'react-device-detect';
 import Mobile_Header from '../components/mobile/Mobile_Header';
 import Mobile_Slider from '../components/mobile/Mobile_Slider';
-import { useEffect, useState } from 'react';
 import Strategie from '../components/web/Strategie';
 import Mobile_Strategie from '../components/mobile/Mobile_Strategie';
 import Mobile_Offre from '../components/mobile/Mobile_Offre';
 import Offre from '../components/web/Offres';
+import Avantages from '../components/web/Avantages';
+import Mobile_Avantages from '../components/mobile/Mobile_Avantages';
 
 
 export default function Home() {
 
-  const [mobile,setMobile] = useState()
-  const [browser,setBrowser] = useState()
-
-  useEffect(() => {
-    setMobile(isMobile)
-    setBrowser(isBrowser)
-  }, [])
-
- 
-
-  return (
-
-    
+return (    
     <>
-
       <div className = "font-poppins">
             <MobileView>
               <Head>
@@ -39,13 +27,12 @@ export default function Home() {
               <Mobile_Slider /> 
               <Mobile_Strategie />
               <Mobile_Offre />
+              <Mobile_Avantages />
             </MobileView>
        </div>
         
-      
-
       <div className = "font-poppins flex flex-col">
-      <BrowserView >
+        <BrowserView >
           
             <Head>
               <title>Agence web, spécialisée en création de sites internet | codata-agency.com </title>
@@ -57,21 +44,19 @@ export default function Home() {
 
             <Header />
               
-                {/* Planification et stratégie */}
+            {/* Planification et stratégie */}
 
             <Strategie />
 
+            {/* Offre */}
+
             <Offre />
 
-                {/* Offre */}
-
-
+            {/* avantages */}
+<Avantages />
 
             {/* Footer */}
-            
-
-      </BrowserView>
-
+        </BrowserView>
     </div>
 
     
