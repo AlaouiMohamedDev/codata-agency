@@ -2,7 +2,7 @@ import items from "../json/avantages_items";
 
 export default function Mobile_Avantages() {
     return (
-        <div className = "container flex flex-col items-center mx-auto text-center space-y-3 mt-5">
+        <section className = "container flex flex-col items-center mx-auto text-center space-y-3 mt-5">
             <section className = "space-y-3">
                 <h1 className = "text-2xl text-gray-800 font-bold">Découvrez nos principaux <span className = "text-green-900 font-black">avantages</span></h1>
                 <h3 className = "text-xl text-green-500"> Pourquoi faire appel à notre agence web ? </h3>
@@ -20,6 +20,6 @@ export default function Mobile_Avantages() {
                     ))
                 }
             </section>
-        </div>
+        </section>
     )
 }

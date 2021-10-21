@@ -2,7 +2,7 @@ import items from '../json/avantages_items';
 
 export default function Avantages(){
     return(
-        <div className = "container space-y-12 mt-12 text-center mx-auto ">
+        <section className = "container space-y-12 mt-12 text-center mx-auto ">
             <div className = "space-y-2">
                 <h1 className = "text-3xl text-gray-800">
                     Découvrez nos principaux <span className = "text-green-900 font-black">avantages</span>
@@ -28,6 +28,6 @@ export default function Avantages(){
                 
                
             
-        </div>
+        </section>
     )
 }

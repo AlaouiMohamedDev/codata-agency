@@ -5,7 +5,7 @@ export default function Mobile_Strategie() {
     const router = useRouter();
 
     return (
-        <div className = "flex flex-col py-10 px-9 bg-gray-50 w-full space-y-6">
+        <section className = "flex flex-col py-10 px-9 bg-gray-50 w-full space-y-6">
             <div className="" >
                 <img src="/strategie-1.png" alt="logo" className="" />
             </div>
@@ -47,7 +47,7 @@ export default function Mobile_Strategie() {
                     <a onClick = {() => router.push('/contact')} className = " bg-green-900 text-white font-semibold px-14 py-3 rounded-md">Découvrez</a>
                 </div>
             </div>
-        </div>
+        </section>
 
     )
 }

@@ -10,6 +10,7 @@ import Mobile_Offre from '../components/mobile/Mobile_Offre';
 import Offre from '../components/web/Offres';
 import Avantages from '../components/web/Avantages';
 import Mobile_Avantages from '../components/mobile/Mobile_Avantages';
+import Footer from '../components/web/Footer';
 
 
 export default function Home() {
@@ -53,9 +54,11 @@ return (
             <Offre />
 
             {/* avantages */}
-<Avantages />
+            <Avantages />
 
             {/* Footer */}
+            <Footer />
+            
         </BrowserView>
     </div>
 
