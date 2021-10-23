@@ -34,6 +34,11 @@ const items = [
         'img':'/icons/Support.png',
         'p':'Les professionnels de notre agence web vous garantissent un support technique des plus complets et efficaces.',
         'title':'SUPPORT',
+    },
+    {
+        'img':'/icons/graphic.png',
+        'p':'Vous pouvez demander des tâches de conception graphique illimitées. Nous couvrons presque toutes les demandes de conception graphique possibles',
+        'title':'Graphique',
     }
 ]
 

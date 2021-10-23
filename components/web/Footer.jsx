@@ -1,7 +1,6 @@
 const Footer = props => {
     return (
         <footer className = "w-full mt-7 bg-gray-900  text-left p-7">
-
             <section className = "flex justify-between px-8 items-center w-full border-b border-gray-700 py-6">
                 <div className = "space-y-3">
                     <h4 className = "text-green-300">Meilleur Référencement</h4>

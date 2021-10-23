@@ -5,7 +5,7 @@ import { Router } from 'next/router';
 
 const progress = new ProgressBar({
   size : 4,
-  color:"#035e1b",
+  color:"#020014",
   className : "z-50",
   delay :100,
 })

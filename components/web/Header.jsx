@@ -33,7 +33,7 @@ export default function Header(){
                     <a className = "link">Services</a>
                 </section>
                 <section>
-                    <a className = "flex cursor-pointer items-center px-2 py-3 font-semibold bg-transparent border-4 space-x-2 rounded text-meduim bg-gray-200 text-black scale-95 transform duration-200 hover:bg-transparent hover:border-4 hover:scale-100 hover:text-white">
+                    <a onClick = {() => router.push('/contact')} className = "flex cursor-pointer items-center px-2 py-3 font-semibold bg-transparent border-4 space-x-2 rounded text-meduim bg-gray-200 text-black scale-95 transform duration-200 hover:bg-transparent hover:border-4 hover:scale-100 hover:text-white">
                         <i className='bx bxs-contact text-xl'></i>
                         <p>Contact Us</p>
                     </a>

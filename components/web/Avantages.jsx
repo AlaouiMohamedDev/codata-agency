@@ -11,7 +11,7 @@ export default function Avantages(){
                     Pourquoi faire appel à notre agence web ?
                 </h3>
             </div>
-            <div  className = "grid grid-cols-4 gap-4 py-7">
+            <div  className = "grid grid-cols-4 gap-4 py-7 ">
                 {
                     items.map(item => (
                         <section className = "group  items-center flex flex-col space-y-1 hover:scale-105 transition duration-200 ease-out cursor-text w-3/4 mx-auto">

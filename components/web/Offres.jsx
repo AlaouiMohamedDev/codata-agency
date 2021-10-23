@@ -65,15 +65,15 @@ export default function Offre() {
                         <p className = "text-gray-900 font-black text-lg">Jusqu'a 5 pages + page de contact</p>
                     </section>
                     <section className = "property">
-                        <i class='bx bx-check text-4xl text-gray-100'></i>
+                        <i className='bx bx-check text-4xl text-gray-100'></i>
                         <p className = "text-gray-900 font-black text-lg">Hébergement et nom de domaine offert</p>
                     </section>
                     <section className = "property">
-                        <i class='bx bx-check text-4xl text-gray-100'></i>
+                        <i className='bx bx-check text-4xl text-gray-100'></i>
                         <span className = "text-gray-900 font-black text-lg">Affichage responsive</span>
                     </section>
                     <section className = "property">
-                        <i class='bx bx-check text-4xl text-gray-100'></i>
+                        <i className='bx bx-check text-4xl text-gray-100'></i>
                         <p className = "text-gray-900 font-black text-lg">Adresse de messagerie professionnelles</p>
                     </section>
                 </div>

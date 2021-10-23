@@ -13,13 +13,7 @@ import Header from "../components/web/Header";
                         <link rel="icon" href="/favicon.ico" />
                         <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
                     </Head>
-                    
-                    <div className = "bg-contact ">
                         <Header />
-                    </div>
-                    
-                    
-
                 </BrowserView>
             </div>
         </>
